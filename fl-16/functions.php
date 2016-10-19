@@ -10,15 +10,15 @@ Version: 0.0.1
 
 */
 
-//menu registry 
-register_nav_menus(array(
-    'main-menu' => _('Menu'),
-    ));
-
-
-//sidebar registry
-register_sidebars();
-
+////menu registry 
+//register_nav_menus(array(
+//    'main-menu' => _('Menu'),
+//    ));
+//
+//
+////sidebar registry
+//register_sidebars();
+//
 
 
 //thumbnail support
@@ -71,17 +71,6 @@ function get_flexslider () {
     
 }
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+   
 
 ?>
