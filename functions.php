@@ -44,8 +44,7 @@ function get_my_title_tag() {
         bloginfo('description');
         
     }
-    
-    echo ' | ';
+        
     bloginfo('name'); // site name
     echo ' | '; // separator
     echo 'Seattle, WA';
@@ -70,5 +69,7 @@ function get_flexslider () {
     
     
 }
-    
+
+
+
 ?>

@@ -12,13 +12,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/flexslider.css" type="text/css">
     <link href="<?php bloginfo('stylesheet_url');?>" type="text/css" rel="stylesheet"/>
-    <script type="text/javascript" charset="utf-8">
-        $(window).load(function() {
-        $('.flexslider').flexslider();
-        });
-    </script>
     <!-- WP head start -->
     <?php wp_head(); ?>
     <!-- WP head end -->
