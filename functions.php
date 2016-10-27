@@ -11,9 +11,18 @@ Version: 0.0.1
 */
 
 //menu registry 
-register_nav_menus(array(
-    'main-menu' => _('SHC-menu'),
-    ));
+
+function register_navs() {
+    register_nav_menus(
+        array(
+            'main-menu' => __( 'SHC-menu' ),
+            'footer' => __('SHC-footer' ),
+            'footer-pt2' => __('SHC-footer2')
+        )
+    );
+}
+
+add_action( 'init', 'register_navs');
 
 //sidebar registry
 register_sidebars();
