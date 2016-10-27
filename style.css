@@ -112,6 +112,10 @@ Version: 0.0.3
 
 /* Start main content / main div */
 
+html,body {
+    height: 100%;
+}
+
 body {
     max-width:1200px;
     margin: 0 auto;
@@ -119,9 +123,83 @@ body {
 
 .main-content {
     clear:both;
+    min-height: 100%;
+    padding-bottom:300px;
 }
 
 /* End main content */
+
+/* Footer styles */
+
+#shc-footer div.row {
+    margin-left:0;!important
+    margin-right:0;!important
+}
+
+.shc-footer-main-info {
+    text-align: center;
+}
+
+.shc-footer-main-info .btn {
+    border-radius: 15px;
+}
+
+.shc-footer-main-info button {
+    text-transform: uppercase;
+}
+
+.shc-footer-main-info button a {
+    color:white;
+}
+
+.shc-nav-footer ul { 
+    display:inline;
+}
+.shc-nav-footer li { 
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+.top-nav-item>a {
+    font-weight: bold;
+    font-size:1.2em;
+}
+
+.shc-nav-footer {
+    text-align: left;
+}
+
+.shc-nav-footer a {
+    color:black;
+}
+
+.shc-footer-last {
+    text-align: center;
+}
+
+.shc-footer-last span .fa {
+    padding-right:10%;
+}
+
+.shc-footer-last span .fa:last-of-type {
+    padding-right:0;
+}
+
+.footer-contact-nav {
+    margin-top:2.5em;
+}
+
+.footer-contact-nav a {
+    color:black;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#shc-footer {
+    margin-top:-300px
+}
+
+
 
 /* MEDIA QUERIES */
 
@@ -176,36 +254,6 @@ body {
     }
 }
 
-.panel-footer {
-    
-}
 
-.shc-nav-footer ul { 
-    display:inline;
-}
-.shc-nav-footer li { 
-    list-style-type: none;  
-}
-
-.top-nav-item>a {
-    font-weight: bold;
-    font-size:1.2em;
-}
-
-.shc-nav-footer a {
-    color:black;
-}
-
-.shc-nav-footer .last-nav-list{
-    ;
-}
-
-
-
-
-
-
-
-
-
+/* END Footer styles */
 

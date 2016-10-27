@@ -1,11 +1,14 @@
 </div>    
 <div id="shc-footer panel">
     <div class="row panel-footer">
-        <div class="col-md-4">
+        <div class="col-md-4 shc-footer-main-info">
             <img src="<?php bloginfo('template_directory');?>/images/100x100.png" class="img-circle" />       
                 <h4 class="#">Seattle Hiroshima Club</h4>
                 <h6 class="#">1000 Main St, Seattle WA 98104</h6>
                 <h6 class="#">1 800 636 252</h6>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-warning"><a href="/donate">donate now</a></button>
+                </div>
         </div>
         <div class="col-md-2 shc-nav-footer">
             <?php wp_nav_menu( array ( 'theme_location' => 'footer' )); ?>
@@ -13,8 +16,22 @@
         <div class="col-md-2 shc-nav-footer">
             <?php wp_nav_menu( array ( 'theme_location' => 'footer-pt2' )); ?>
         </div>
-        <div class="col-md-4">
-        
+        <div class="col-md-4 shc-footer-last">
+            <h3>Search Bar Here</h3>
+            <span>
+                <i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i>
+                <i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i>                
+                <i class="fa fa-instagram fa-3x" aria-hidden="true"></i>
+                <i class="fa fa-youtube-play fa-3x" aria-hidden="true"></i>
+            </span>
+            <ul class="shc-nav-footer">
+            <li class="footer-contact-nav"><a href="/contact">Contact</a></li>
+            <li>Linda Ishii</li>
+            <li>seattlehiroshimaclub@gmail.com</li>
+            <li>360 787 9020</li>
+            </ul>
+            
+            
         </div>
     </div>
 </div>
