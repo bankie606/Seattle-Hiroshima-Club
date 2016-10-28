@@ -152,6 +152,10 @@ body {
     color:white;
 }
 
+.shc-footer-main-info button a:hover {
+    text-decoration: none;
+}
+
 .shc-nav-footer ul { 
     display:inline;
 }
@@ -254,6 +258,10 @@ body {
     }
 }
 
-
+@media screen and (max-width:450px){
+    .shc-main-nav .navbar-left h4 {
+        font-size: 1em;
+    }
+}
 /* END Footer styles */
 
