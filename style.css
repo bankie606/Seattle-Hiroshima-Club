@@ -129,6 +129,55 @@ body {
 
 /* End main content */
 
+/* Start page.php(main-content)  */
+
+.page-content {
+    width:900px;
+    float:left;
+    padding-right:100px;
+}
+
+/* End page.php(main-content)  */
+
+/* Start page.php(page-sidebar)  */
+
+.page-sidebar {
+    width:200px;
+    float:right;
+}
+
+.page-sidebar h3 {
+    background-color:buttonface;
+    padding:10px;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+.page-sidebar ul li {
+    list-style-type:none;
+    font-size: 1.3em;
+    line-height: 2em;
+}
+
+.page-sidebar .btn {
+    font-size:24px;
+    text-transform: uppercase;
+    color: black;
+    text-align: left;   
+}
+
+.page-sidebar h5 {
+    padding-left:15px;
+}
+
+.page-sidebar form {
+    padding-left:1px;
+    width:100%;
+}
+
+/* End page.php(page-sidebar)  */
+
+
 /* Footer styles */
 
 #shc-footer div.row {
@@ -203,9 +252,21 @@ body {
     margin-top:-300px
 }
 
+/* END Footer styles */
 
 
 /* MEDIA QUERIES */
+
+@media screen and (max-width:1100px){
+    .page-sidebar, .page-content {
+        clear:both;
+        width:100%;
+        padding:0 10px;
+    }
+    .panel-footer {
+        clear: both;
+    }
+}
 
 @media screen and (max-width:1004px){
     .shc-main-nav #bs-example-navbar-collapse-1 {
@@ -263,5 +324,4 @@ body {
         font-size: .9em;
     }
 }
-/* END Footer styles */
 
