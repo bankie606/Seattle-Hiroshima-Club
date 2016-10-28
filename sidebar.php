@@ -20,11 +20,11 @@
             
             echo '<a href="/donate"><button type="button" class="btn btn-block">donate</button></a>';
             echo '<h3>Newsletter</h3>';
-            echo '<form class="navbar-form navbar-left" role="search">
+            /*echo '<form class="navbar-form navbar-left" role="search">
                     <div class="form-group">
                     <input type="text" class="form-control" placeholder="Sign up for our mailing list">
                     </div>
-                    </form>';
+                    </form>';*/
             
         }
 
