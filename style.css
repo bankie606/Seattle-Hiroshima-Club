@@ -8,6 +8,12 @@ Version: 0.0.3
 
 */
 
+@font-face {
+    font-family :felixti;
+    src: url(fonts/Felixti.ttf);
+}
+
+
 /* bootstrap hover nav by Andres Ilich */
 @media screen and (min-width:767px){
 .sidebar-nav {
@@ -58,17 +64,21 @@ Version: 0.0.3
 
 .search-login {
     width:100%;
-    border-bottom:1px solid black;
-    height: 20px;
+    height: 25px;
+    margin-bottom: 1em;
+    padding: 2px 0;
+    background-color: #65130e;
 }
 
 .search-login a {
     float:right;
+    color:#c7c7c7;
 }
 
 .shc-main-nav a {
     color:black;
     font-size: 1.2em;
+    text-transform: uppercase;
 }
 
 .shc-main-nav .navbar-toggle {
@@ -93,6 +103,9 @@ Version: 0.0.3
 .shc-main-nav .navbar-left h4 {
     font-size: 1.3em;
     margin-left:1em;
+    font-family: felixti;
+    font-weight: 600;
+    letter-spacing: 2.5px;
 }
 
 .shc-main-nav .navbar-left img {
@@ -125,6 +138,10 @@ body {
     clear:both;
     min-height: 100%;
     padding-bottom:300px;
+}
+
+#front-page-main-content {
+    margin-top:1em;
 }
 
 /* End main content */
@@ -166,6 +183,10 @@ body {
     text-align: left;   
 }
 
+.sidebar-button-a:hover{
+    text-decoration: none;!important
+}
+
 .page-sidebar h5 {
     padding-left:15px;
 }
@@ -175,10 +196,19 @@ body {
     width:100%;
 }
 
+.page-sidebar .sidebar-img {
+    width: 100%;
+    padding-top:1.5em;
+}
+
 /* End page.php(page-sidebar)  */
 
 
 /* Footer styles */
+
+.panel-footer {
+    background-color:#65130e;
+}
 
 #shc-footer div.row {
     margin-left:0;!important
@@ -187,6 +217,7 @@ body {
 
 .shc-footer-main-info {
     text-align: center;
+    color:#c7c7c7;
 }
 
 .shc-footer-main-info .btn {
@@ -211,11 +242,13 @@ body {
 .shc-nav-footer li { 
     list-style-type: none;
     text-transform: uppercase;
+    color:#c7c7c7;
 }
 
 .top-nav-item>a {
     font-weight: bold;
     font-size:1.2em;
+    text-transform: uppercase;
 }
 
 .shc-nav-footer {
@@ -223,15 +256,20 @@ body {
 }
 
 .shc-nav-footer a {
-    color:black;
+    color:#c7c7c7;
 }
 
 .shc-footer-last {
     text-align: center;
 }
 
+.shc-footer-last {
+    color:#c7c7c7;
+}
+
 .shc-footer-last span .fa {
     padding-right:10%;
+    color:#c7c7c7;
 }
 
 .shc-footer-last span .fa:last-of-type {
@@ -243,7 +281,7 @@ body {
 }
 
 .footer-contact-nav a {
-    color:black;
+    color:#c7c7c7;
     font-size: 1.2em;
     font-weight: bold;
 }
@@ -317,6 +355,10 @@ body {
     .shc-main-nav a {
         font-weight: bold;
     }
+    .shc-main-nav .navbar-left h4 {
+        font-family: sans-serif;
+        letter-spacing: 1.5px;
+    }
 }
 
 @media screen and (max-width:450px){
@@ -325,3 +367,64 @@ body {
     }
 }
 
+
+.box {
+    width: 29%;
+    display:inline-block;
+    border:1px #65130e solid;
+    border-radius:2px;
+    min-height:100px;
+    margin-right:5%;
+    margin-bottom:200px;
+}
+
+.box img {
+    width:200px;
+    margin-bottom: 2em;
+}
+
+.box:last-of-type {
+    margin-right:0;
+}
+
+#cta {
+    clear:both;
+    margin-top:5em;
+}
+
+.cta-text {
+    padding: 10px 0;
+    color:black;
+    font-weight:bold;
+    text-align:center;
+}
+
+.cta-text a {
+    color:black;
+    text-decoration: none;
+    padding:.4em 5em;
+    border:2px #65130e solid;
+    text-transform: uppercase;
+    margin:2em 0;
+}
+
+.cta-text a:hover {
+    background-color: #ebd1d2;
+}
+
+#cta .box .cta-text h3 {
+    text-transform: uppercase;
+}
+
+@media screen and (min-width:701px) {
+    .box {
+        min-height: 400px;
+    }
+}
+
+@media screen and (max-width:700px) {
+.box {
+    width:100%;
+    margin:0;
+}
+}

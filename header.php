@@ -23,15 +23,10 @@
             <a href="#">SEARCH </a>
         </div>
         <div class="header-img-nav container-fluid">
-        <!--<div id="shc-logo-name">
-            <a href="<?php echo get_settings('home');?>"><img src="<?php bloginfo('template_directory');?>/images/100x100.png" class="img-circle" />       
-                <h4 class="#">Seattle <br> Hiroshima <br>Club</h4></a>
-        </div>-->
-    
         <nav class="navbar shc-main-nav" role="navigation">
         <div class="container-fluid">
             <div class="navbar-header">
-                <a href="<?php echo get_option('home')?>" class="navbar-left"><img src="<?php bloginfo('template_directory');?>/images/100x100.png" class="img-circle" />
+                <a href="<?php echo get_option('home')?>" class="navbar-left"><img src="<?php bloginfo('template_directory');?>/images/shc_logo.png" class="img-circle" />
                     <div id="shc-name-h4">
                         <h4>Seattle</h4>
                         <h4>Hiroshima</h4>

@@ -2,7 +2,7 @@
 <div id="shc-footer panel">
     <div class="row panel-footer">
         <div class="col-md-4 shc-footer-main-info">
-            <img src="<?php bloginfo('template_directory');?>/images/100x100.png" class="img-circle" />       
+            <img src="<?php bloginfo('template_directory');?>/images/shc_logo.png" class="img-circle" />       
                 <h4 class="#">Seattle Hiroshima Club</h4>
                 <h6 class="#">1000 Main St, Seattle WA 98104</h6>
                 <h6 class="#">1 800 636 252</h6>
