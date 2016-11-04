@@ -111,6 +111,7 @@ Version: 0.0.3
 .shc-main-nav .navbar-left img {
     vertical-align:inherit;
     float:left;
+    width:100px;
 }
 
 #shc-name-h4 {

@@ -26,7 +26,7 @@
         <nav class="navbar shc-main-nav" role="navigation">
         <div class="container-fluid">
             <div class="navbar-header">
-                <a href="<?php echo get_option('home')?>" class="navbar-left"><img src="<?php bloginfo('template_directory');?>/images/shc_logo.png" class="img-circle" />
+                <a href="<?php echo get_option('home')?>" class="navbar-left"><img src="<?php bloginfo('template_directory');?>/images/shc-logo.png" class="shc-main-logo" />
                     <div id="shc-name-h4">
                         <h4>Seattle</h4>
                         <h4>Hiroshima</h4>
