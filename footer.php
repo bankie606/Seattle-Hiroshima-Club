@@ -17,19 +17,20 @@
             <?php wp_nav_menu( array ( 'theme_location' => 'footer-pt2' )); ?>
         </div>
         <div class="col-md-4 shc-footer-last">
-            <h3>Search Bar Here</h3>
-            <span>
-                <i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i>
-                <i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i>                
-                <i class="fa fa-instagram fa-3x" aria-hidden="true"></i>
-                <i class="fa fa-youtube-play fa-3x" aria-hidden="true"></i>
-            </span>
             <ul class="shc-nav-footer">
             <li class="footer-contact-nav"><a href="/contact">Contact</a></li>
             <li>Linda Ishii</li>
             <li>seattlehiroshimaclub@gmail.com</li>
             <li>360 787 9020</li>
             </ul>
+            <span>
+                <i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i>
+                <i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i>                
+                <i class="fa fa-instagram fa-3x" aria-hidden="true"></i>
+                <i class="fa fa-youtube-play fa-3x" aria-hidden="true"></i>
+            </span>
+            <h3>Search Bar Here</h3>
+            
             
             
         </div>

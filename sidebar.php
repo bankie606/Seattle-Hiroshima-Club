@@ -21,7 +21,7 @@
             echo '<a href="/donate" class="sidebar-button-a"><button type="button" class="btn btn-block">donate</button>';
             echo '<img src="';
             bloginfo('template_directory');
-            echo '/images/paypal-donate.png" class="sidebar-img" /></a>';
+            echo '/images/donate-button.png" class="sidebar-img" /></a>';
             echo '<h3>Newsletter</h3>';
             /*echo '<form class="navbar-form navbar-left" role="search">
                     <div class="form-group">

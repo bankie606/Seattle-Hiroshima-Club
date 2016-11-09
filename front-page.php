@@ -29,7 +29,7 @@
                 <a href="#">Learn More ></a>
             </div>
         </div>
-    </div> 
+    </div>
 </div>
 <!-- WP content end -->
 <?php get_footer(); ?>
