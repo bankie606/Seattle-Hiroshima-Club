@@ -17,7 +17,12 @@
             }
             
             echo '<h3>Events</h3>';
-            
+            ?>
+            <div id="dynamic-widget">
+                <?php dynamic_sidebar(); ?>
+            </div>
+
+            <?php
             echo '<a href="/donate" class="sidebar-button-a"><button type="button" class="btn btn-block">donate</button>';
             echo '<img src="';
             bloginfo('template_directory');

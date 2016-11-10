@@ -202,6 +202,19 @@ body {
     padding-top:1.5em;
 }
 
+.page-sidebar .sidebar-img {
+    max-width:300px;
+}
+
+.page-sidebar #dynamic-widget h2 {
+    display: none;
+}
+
+.page-sidebar #dynamic-widget {
+    margin-bottom: 2em;
+}
+
+
 /* End page.php(page-sidebar)  */
 
 
@@ -297,6 +310,58 @@ body {
 
 /* END Footer styles */
 
+/* CTA styles */
+
+.box {
+    width: 29%;
+    display:inline-block;
+    border:1px #65130e solid;
+    border-radius:2px;
+    min-height:100px;
+    margin-right:5%;
+    margin-bottom:200px;
+}
+
+.box img {
+    width:200px;
+    margin-bottom: 2em;
+}
+
+.box:last-of-type {
+    margin-right:0;
+}
+
+#cta {
+    clear:both;
+    margin-top:5em;
+}
+
+.cta-text {
+    padding: 10px 0;
+    color:black;
+    font-weight:bold;
+    text-align:center;
+}
+
+.cta-text a {
+    color:black;
+    text-decoration: none;
+    padding:.4em 5em;
+    border:2px #65130e solid;
+    text-transform: uppercase;
+    margin:2em 0;
+}
+
+.cta-text a:hover {
+    background-color: #ebd1d2;
+}
+
+#cta .box .cta-text h3 {
+    text-transform: uppercase;
+}
+
+/* END CTA styles */
+
 
 /* MEDIA QUERIES */
 
@@ -372,54 +437,14 @@ body {
     }
 }
 
-
-.box {
-    width: 29%;
-    display:inline-block;
-    border:1px #65130e solid;
-    border-radius:2px;
-    min-height:100px;
-    margin-right:5%;
-    margin-bottom:200px;
+@media screen and (max-width:950px){
+    .box {
+        width:32%;
+        margin-right:0;
+    }   
 }
 
-.box img {
-    width:200px;
-    margin-bottom: 2em;
-}
 
-.box:last-of-type {
-    margin-right:0;
-}
-
-#cta {
-    clear:both;
-    margin-top:5em;
-}
-
-.cta-text {
-    padding: 10px 0;
-    color:black;
-    font-weight:bold;
-    text-align:center;
-}
-
-.cta-text a {
-    color:black;
-    text-decoration: none;
-    padding:.4em 5em;
-    border:2px #65130e solid;
-    text-transform: uppercase;
-    margin:2em 0;
-}
-
-.cta-text a:hover {
-    background-color: #ebd1d2;
-}
-
-#cta .box .cta-text h3 {
-    text-transform: uppercase;
-}
 
 @media screen and (min-width:701px) {
     .box {
