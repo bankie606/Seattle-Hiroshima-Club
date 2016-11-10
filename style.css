@@ -95,7 +95,7 @@ Version: 0.0.3
 
 .shc-main-nav #bs-example-navbar-collapse-1 {
     float:right;
-    margin-top:80px;
+    /*margin-top:80px;*/
     margin-bottom:0;
     padding-bottom: 0;
 }
@@ -212,6 +212,58 @@ body {
 
 /* End page.php(page-sidebar)  */
 
+/* CTA styles */
+
+.box {
+    width: 29%;
+    display:inline-block;
+    border:1px #65130e solid;
+    border-radius:2px;
+    min-height:100px;
+    margin-right:5%;
+    margin-bottom:200px;
+}
+
+.box img {
+    width:200px;
+    margin-bottom: 2em;
+}
+
+.box:last-of-type {
+    margin-right:0;
+}
+
+#cta {
+    clear:both;
+    margin-top:5em;
+}
+
+.cta-text {
+    padding: 10px 0;
+    color:black;
+    font-weight:bold;
+    text-align:center;
+}
+
+.cta-text a {
+    color:black;
+    text-decoration: none;
+    padding:.4em 5em;
+    border:2px #65130e solid;
+    text-transform: uppercase;
+    margin:2em 0;
+}
+
+.cta-text a:hover {
+    background-color: #ebd1d2;
+}
+
+#cta .box .cta-text h3 {
+    text-transform: uppercase;
+}
+
+
+/*END CTA styles */
 
 /* Footer styles */
 
@@ -339,8 +391,8 @@ body {
         width:75px;
     }
     .shc-main-nav .navbar-header #shc-name-h4 {
-        margin-top:25px;
-        margin-left:20px;
+        margin-top:20px;
+        margin-left:5px;
     }
     .shc-main-nav .navbar-header #shc-name-h4 h4 {
         margin:auto;
@@ -373,6 +425,9 @@ body {
         font-family: sans-serif;
         letter-spacing: 1.5px;
     }
+    .main-content .breadcrumbs {
+        margin-top:1em;
+    }
 }
 
 @media screen and (max-width:450px){
@@ -382,53 +437,6 @@ body {
 }
 
 
-.box {
-    width: 29%;
-    display:inline-block;
-    border:1px #65130e solid;
-    border-radius:2px;
-    min-height:100px;
-    margin-right:5%;
-    margin-bottom:200px;
-}
-
-.box img {
-    width:200px;
-    margin-bottom: 2em;
-}
-
-.box:last-of-type {
-    margin-right:0;
-}
-
-#cta {
-    clear:both;
-    margin-top:5em;
-}
-
-.cta-text {
-    padding: 10px 0;
-    color:black;
-    font-weight:bold;
-    text-align:center;
-}
-
-.cta-text a {
-    color:black;
-    text-decoration: none;
-    padding:.4em 5em;
-    border:2px #65130e solid;
-    text-transform: uppercase;
-    margin:2em 0;
-}
-
-.cta-text a:hover {
-    background-color: #ebd1d2;
-}
-
-#cta .box .cta-text h3 {
-    text-transform: uppercase;
-}
 
 @media screen and (min-width:701px) {
     .box {
