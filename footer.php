@@ -17,18 +17,7 @@
             <?php wp_nav_menu( array ( 'theme_location' => 'footer-pt2' )); ?>
         </div>
         <div class="col-md-4 shc-footer-last">
-            <form method="get" id="searchform" action="http://www.seattle-hc.frcrescioni.net">
-						<p class="srch submit">
-							<input type="text" class="srch-txt" value="" name="s" id="s" size="30">
-							<input type="submit" class="button" id="searchsubmit" value="Run Test Search">
-						</p>
-					</form>
-            <span>
-                <i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i>
-                <i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i>                
-                <i class="fa fa-instagram fa-3x" aria-hidden="true"></i>
-                <i class="fa fa-youtube-play fa-3x" aria-hidden="true"></i>
-            </span>
+            
             <ul class="shc-nav-footer">
             <li class="footer-contact-nav"><a href="/contact">Contact</a></li>
             <li>Linda Ishii</li>
@@ -36,7 +25,20 @@
             <li>360 787 9020</li>
             </ul>
             
+            <span>
+                <i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i>
+                <i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i>                
+                <i class="fa fa-instagram fa-3x" aria-hidden="true"></i>
+                <i class="fa fa-youtube-play fa-3x" aria-hidden="true"></i>
+            </span>
             
+            <form method="get" id="searchform" action="http://www.seattle-hc.frcrescioni.net">
+				<p class="srch submit">
+				    <input type="text" class="srch-txt" value="" name="s" id="s" size="30">
+				    <input type="submit" class="button" id="searchsubmit" value="Run Test Search">
+				</p>
+            </form>
+ 
         </div>
     </div>
 </div>
