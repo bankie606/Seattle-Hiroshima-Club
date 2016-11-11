@@ -104,7 +104,7 @@ Version: 0.0.3
     font-size: 1.3em;
     margin-left:1em;
     font-family: felixti;
-    letter-spacing: 2.5px;
+    letter-spacing: ;
 }
 
 .shc-main-nav .navbar-left img {
@@ -423,7 +423,7 @@ body {
     }
     .shc-main-nav .navbar-left h4 {
         font-family: sans-serif;
-        letter-spacing: 1.5px;
+        letter-spacing:;
     }
     .main-content .breadcrumbs {
         margin-top:1em;
