@@ -21,9 +21,8 @@ if ( $child_pages ) :
         $thumbnail = get_the_post_thumbnail($pageChild->ID, 'thumbnail');
 ?>
         <div class="child-info">
-            <?= $thumbnail ?>
-          <a href="<?=get_permalink($pageChild->ID) ?>" rel="bookmark" title="<?= $pageChild->post_title ?>"></a>
-            <h2><?= $pageChild->post_title ?></h2>
+            <a href="<?=get_permalink($pageChild->ID) ?>" rel="bookmark" title="<?= $pageChild->post_title ?>"><?= $thumbnail ?></a>
+          <a href="<?=get_permalink($pageChild->ID) ?>" rel="bookmark" title="<?= $pageChild->post_title ?>"><h2><?= $pageChild->post_title ?></h2></a>
             <?php if (!empty($pageChild->post_excerpt)){
             echo '<p>' . $pageChild->post_excerpt.'</p> ';
             }

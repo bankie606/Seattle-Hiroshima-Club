@@ -291,6 +291,9 @@ body {
     margin-top:.65em;
 }
 
+.child-a-div {
+    display: none;
+}
 /*END Child info styles */
 
 /* Footer styles */
