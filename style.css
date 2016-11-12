@@ -144,6 +144,11 @@ body {
     margin-top:1em;
 }
 
+.h1-header {
+    text-transform: uppercase;
+    padding:5px 0;
+}
+
 /* End main content */
 
 /* Start page.php(main-content)  */
@@ -264,6 +269,29 @@ body {
 
 
 /*END CTA styles */
+
+/* Child info */
+
+.child-info {
+    overflow: hidden;
+}
+
+.child-info img {
+    float:left;
+    margin:0 20px 30px 0;
+}
+
+.child-info h2 {
+    display: inline;
+    vertical-align: top;
+    margin-bottom:5px;
+}
+
+.child-info p {
+    margin-top:.65em;
+}
+
+/*END Child info styles */
 
 /* Footer styles */
 
@@ -436,8 +464,6 @@ body {
     }
 }
 
-
-
 @media screen and (min-width:701px) {
     .box {
         min-height: 400px;
@@ -449,6 +475,26 @@ body {
         width:100%;
         margin:0;
     }
+    .child-info img {
+        float:none;
+        display: block;
+        margin: auto;
+    }
+    .child-info h2 {
+        display: block;
+    }
+    .child-info p, .child-info h2 {
+        text-align: center;   
+    }
+    .child-a-div {
+        width:100%;
+        text-align: center;
+        margin-bottom:2em;
+        border-bottom:1px solid black;
+    }
+    .child-info .a-info {
+        display: block;
+    }
 }
 
 @media screen and (max-width:800px) {
@@ -456,8 +502,14 @@ body {
         padding-right: 0;
         padding-left: 0;
     }
-    .container-fluid {
-        
+    
+    .child-info p {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .h1-header {
+        background-color: #eee;
+        text-align: center;
     }
 }
 
