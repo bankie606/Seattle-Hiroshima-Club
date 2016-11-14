@@ -9,9 +9,7 @@
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 <h1 class="h1-header"><?php the_title(); ?></h1>  
         <div class="page-content">
-
-            
-        
+            <?php the_content();?>
             <?
 $child_pages = $wpdb->get_results("SELECT * FROM $wpdb->posts WHERE post_parent = ".$post->ID." AND post_type = 'page' ORDER BY menu_order", 'OBJECT');
 
