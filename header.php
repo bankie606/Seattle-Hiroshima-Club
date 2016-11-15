@@ -25,7 +25,7 @@
         <nav class="navbar shc-main-nav" role="navigation">
         <div class="container-fluid">
             <div class="navbar-header">
-                <a href="<?php echo get_option('home')?>" class="navbar-left"><img src="<?php bloginfo('template_directory');?>/images/shc_logo.png" class="shc-main-logo" />
+                <a href="<?php echo get_option('home')?>" class="navbar-left"><img src="http://www.seattle-hc.frcrescioni.net/wp-content/uploads/2016/11/shc_logo.png" class="shc-main-logo" />
                     <div id="shc-name-h4">
                         <h4>Seattle Hiroshima Club</h4>
                         <h4>シアトル広島県人会</h4>
