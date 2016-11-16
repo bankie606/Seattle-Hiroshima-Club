@@ -1,4 +1,5 @@
-</div>    
+</div>
+</div>
 <div id="shc-footer panel">
     <div class="row panel-footer">
         <div class="col-md-4 shc-footer-main-info">

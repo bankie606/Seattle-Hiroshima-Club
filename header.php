@@ -21,6 +21,7 @@
             <a href="#">LOG IN</a>
             <a href="#">SEARCH </a>
         </div>
+        <div class="everything">
         <div class="header-img-nav container-fluid">
         <nav class="navbar shc-main-nav" role="navigation">
         <div class="container-fluid">
