@@ -17,10 +17,10 @@
     <!-- WP head end -->
     </head>
     <body <?php body_class();?>>
-        <div class="search-login">
+       <!--<div class="search-login">
             <a href="#">LOG IN</a>
             <a href="#">SEARCH </a>
-        </div>
+        </div>-->
         <div class="everything">
         <div class="header-img-nav container-fluid">
         <nav class="navbar shc-main-nav" role="navigation">

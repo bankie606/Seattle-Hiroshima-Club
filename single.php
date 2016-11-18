@@ -1,4 +1,4 @@
-  <?php get_header(); ?>
+<?php get_header(); ?>
     <!-- WP content start -->
 <div id="#">
     <div id="#">

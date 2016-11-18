@@ -73,9 +73,8 @@ add_post_type_support( 'page', 'excerpt' );
 function get_child_pages() {
 	
 	global $post;
-	
-	rewind_posts(); // stop any previous loops 
-	query_posts(array('post_type' => 'page', 'posts_per_page' => -1, 'post_status' => publish,'post_parent' => $post->ID,'order' => 'ASC','orderby' => 'menu_order')); // query and order child pages 
+    
+	query_posts(array('post_type' => 'page', 'posts_per_page' => -1,'post_parent' => $post->ID,'order' => 'ASC','orderby' => 'menu_order')); // query and order child pages 
     
 	while (have_posts()) : the_post(); 
 	
@@ -94,6 +93,5 @@ function get_child_pages() {
 	wp_reset_query(); // reset query
         
 }
-
 
 ?>
