@@ -172,10 +172,11 @@ body {
 
 .main-content {
     clear:both;
-    padding:0 5px;
+    padding:0;
 }
 
-#front-page-main-content {
+.page-everything {
+    padding: 0 5px;
 }
 
 .h1-header {

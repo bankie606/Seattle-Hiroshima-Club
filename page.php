@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+<div class="page-everything">
 <div class="breadcrumbs" typeof="BreadcrumbList" vocab="http://schema.org/">
     <?php if(function_exists('bcn_display'))
     {
@@ -37,7 +38,7 @@ endif;
         <div class="page-sidebar">
             <?php get_sidebar(); ?>
         </div>
-        
+</div>
 <?php endwhile; ?>
 <?php endif; ?>
 
