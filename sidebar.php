@@ -23,7 +23,7 @@
             </div>
 
             <?php
-            echo '<a href="/donate" class="sidebar-button-a"><button type="button" class="btn btn-block">donate</button>';
+            echo '<h3>Donate</h3>';
             echo '<img src="';
             bloginfo('template_directory');
             echo '/images/donate-button.png" class="sidebar-img" /></a>';

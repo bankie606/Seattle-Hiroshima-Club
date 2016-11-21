@@ -11,18 +11,30 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="https://use.fontawesome.com/acad8e30f8.js"></script>
+    
     <link href="<?php bloginfo('stylesheet_url');?>" type="text/css" rel="stylesheet"/>
+    
     <!-- WP head start -->
     <?php wp_head(); ?>
     <!-- WP head end -->
     </head>
+<div id="top"></div>
     <body <?php body_class();?>>
-       <!--<div class="search-login">
-            <a href="#">LOG IN</a>
-            <a href="#">SEARCH </a>
+        <!--<div class="search-login">
+             <form class="navbar-form" role="search" method="get" id="searchform" action="http://www.seattle-hc.frcrescioni.net">
+                <div>
+                    <input type="text" class="form-control search-bar srch-txt" placeholder="Search" name="s" id="s">
+                    <button type="submit" class="btn btn-default" id="searchsubmit">
+                        <span class="glyphicon glyphicon-search"></span>
+                    </button>
+                </div>
+            </form>
         </div>-->
+        
         <div class="everything">
+            
         <div class="header-img-nav container-fluid">
+            
         <nav class="navbar shc-main-nav" role="navigation">
         <div class="container-fluid">
             <div class="navbar-header">
@@ -32,6 +44,14 @@
                         <h4>シアトル広島県人会</h4>
                     </div>
                 </a>
+                <form class="navbar-form pull-right" role="search" method="get" id="searchform" action="http://www.seattle-hc.frcrescioni.net">
+                    <div class="row-fluid">
+                        <input type="text" class="form-control search-bar srch-txt" placeholder="Search" name="s" id="s">
+                        <button type="submit" class="btn btn-default top-search-btn" id="searchsubmit">
+                            <span class="glyphicon glyphicon-search"></span>
+                        </button>
+                    </div>
+                </form>
               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
@@ -39,6 +59,7 @@
                 <span class="icon-bar"></span>
               </button>
             </div>
+            
                     <?php
                     wp_nav_menu( array(
                         'menu'              => 'SHC-menu',
@@ -51,9 +72,16 @@
                         'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
                         'walker'            => new wp_bootstrap_navwalker())
                     );
-                ?>
-            
+                ?>            
         </div>
         </nav>
+            <form class="navbar-form pull-right header-lower-form" role="search" method="get" id="searchform" action="http://www.seattle-hc.frcrescioni.net">
+                    <div class="row-fluid">
+                        <input type="text" class="form-control search-bar srch-txt" placeholder="Search" name="s" id="s">
+                        <button type="submit" class="btn btn-default top-search-btn" id="searchsubmit">
+                            <span class="glyphicon glyphicon-search"></span>
+                        </button>
+                    </div>
+                </form>
         </div>
         <div class="main-content">

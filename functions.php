@@ -70,28 +70,5 @@ function get_my_title_tag() {
 
 add_post_type_support( 'page', 'excerpt' );
 
-function get_child_pages() {
-	
-	global $post;
-    
-	query_posts(array('post_type' => 'page', 'posts_per_page' => -1,'post_parent' => $post->ID,'order' => 'ASC','orderby' => 'menu_order')); // query and order child pages 
-    
-	while (have_posts()) : the_post(); 
-	
-		$childPermalink = get_permalink( $post->ID ); // post permalink
-		$childID = $post->ID; // post id
-		$childTitle = $post->post_title; // post title
-		$childExcerpt = $post->post_excerpt; // post excerpt
-        
-		echo '<article id="page-excerpt-'.$childID.'" class="page-excerpt">';
-		echo '<h3><a href="'.$childPermalink.'">'.$childTitle.' &raquo;</a></h3>';
-		echo '<p>'.$childExcerpt.' <a href="'.$childPermalink.'">Read More&nbsp;&raquo;</a></p>';
-		echo '</article>';
-        
-	endwhile;
-	
-	wp_reset_query(); // reset query
-        
-}
 
 ?>
