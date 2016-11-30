@@ -16,7 +16,7 @@
                 </div>
             </form>
                 <div class="btn-group">
-                    <button type="button" class="btn btn-danger"><a href="#top">Back To Top</a></button>
+                    <button type="button" class="btn"><a href="#top">Back To Top</a></button>
                 </div>
     </div>
         <div class="shc-footer-new">
@@ -34,11 +34,6 @@
             
     </div>
 </div>
-
-
-
-
-
         <!-- WP footer begin -->
         <?php wp_footer(); ?>
         <!-- WP footer eng -->
