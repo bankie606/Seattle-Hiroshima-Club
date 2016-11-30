@@ -1,10 +1,10 @@
 /*
 
 Theme Name: FL2016 HCnew
-Author: Milo
+Author: Milo 
 Author URI: http://www.milo.sh
 Description: This is a custom WP theme for the Seattle Hiroshima  
-Version: 0.0.3
+Version: 0.0.420
 
 */
 
@@ -521,6 +521,12 @@ figure.effect-chico:hover p {
     overflow: hidden;
 }
 
+
+/* video gallery */
+#huge_it_videogallery_container_moving_1{
+width:900px;
+}
+
 /* Footer styles */
 
 .panel-footer {
@@ -756,6 +762,12 @@ div.row {
     .header-lower-form button {
         display: none;
     }
+}
+
+@media screen and (max-width:900px){
+#huge_it_videogallery_container_moving_1{
+width:100%;
+}
 }
 
 @media screen and (max-width:450px){
