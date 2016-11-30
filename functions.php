@@ -17,7 +17,6 @@ function register_navs() {
         array(
             'main-menu' => __( 'SHC-menu' ),
             'footer' => __('SHC-footer' ),
-            'footer-pt2' => __('SHC-footer2')
         )
     );
 }
@@ -69,6 +68,7 @@ function get_my_title_tag() {
  //add excerpt support for pages
 
 add_post_type_support( 'page', 'excerpt' );
+
 
 
 ?>
