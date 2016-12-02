@@ -253,6 +253,21 @@ body {
     display: none;
 }
 
+.page-sidebar .children {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-left:5px;
+}
+
+.page-sidebar .children li {
+    line-height: 1.1em;
+    font-size: 1em;
+    margin-top:.55em;
+    margin-bottom: .55em;
+}
+
+
+
 /* End page.php(page-sidebar)  */
 
 /* front-page.php text banner*/
@@ -854,7 +869,7 @@ width:100%;
     .shc-footer-main-info {
         background-color: #faf7cd;!important
         overflow: overlay;!important
-        margin-bottom: 20px!important
+        margin-bottom: 25px!important
     }
     #shc-footer {
         height: 250px;
@@ -870,3 +885,4 @@ width:100%;
         padding:0;
     }
 }
+

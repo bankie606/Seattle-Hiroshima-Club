@@ -24,7 +24,7 @@
 
             <?php
             echo '<h3>Donate</h3>';
-            echo '<img src="';
+            echo '<a href="/donate"><img src="';
             bloginfo('template_directory');
             echo '/images/donate-button.png" class="sidebar-img" /></a>';
             echo '<h3>Newsletter</h3>';
