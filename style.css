@@ -532,7 +532,6 @@ width:900px;
 
 .panel-footer {
     background-color: #FAF7CD;
-    max-height: ;
 }
 
 #shc-footer div.row {
@@ -835,5 +834,39 @@ width:100%;
         margin-right:0;
         width:100%;
         margin-bottom:0;
+    }
+}
+
+@media screen and (max-width:1025px) {
+    #links > ul > li {
+        width:120px;
+    }
+    .top-nav-item>a {
+        font-size: .9em;
+    }
+}
+
+@media screen and (max-width: 780px) {
+	
+    #links {
+        display: none;
+    }
+    .shc-footer-main-info {
+        background-color: #faf7cd;!important
+        overflow: overlay;!important
+        margin-bottom: 20px!important
+    }
+    #shc-footer {
+        height: 250px;
+    }
+    .navbar-form {
+        margin-left:0;
+        margin-right:0;
+    }
+    .navbar-form button {
+        display: none;
+    }
+    .panel-footer {
+        padding:0;
     }
 }
