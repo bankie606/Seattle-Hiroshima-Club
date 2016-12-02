@@ -72,7 +72,7 @@
                         'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
                         'walker'            => new wp_bootstrap_navwalker())
                     );
-                ?>            
+                ?>
         </div>
         </nav>
             <form class="navbar-form pull-right header-lower-form" role="search" method="get" id="searchform" action="http://www.seattle-hc.frcrescioni.net">
