@@ -156,6 +156,7 @@ Version: 0.0.420
 /* Start main content / main div */
 html {
     background-color:#91A885;
+    background-image: url(images/egg-shell.png);
 }
 
 html,body {
