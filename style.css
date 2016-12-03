@@ -151,7 +151,6 @@ Version: 0.0.420
     display: none;
 }
 
-
 .everything .current-menu-item, .everything .current_page_ancestor, .everything .dropdown-menu>.active>a  {
     background-color:#5E1213;
     background-image:linear-gradient(to bottom,#5E1213 0,#5E1213 100%)
@@ -165,6 +164,7 @@ Version: 0.0.420
     background-color:#5E1213;
     color:white;
 }
+
 
 /*End header/navbar */
 
@@ -731,6 +731,10 @@ div.row {
     }
 }
 
+@media screen and (min-width:767px){
+
+}
+
 @media screen and (max-width:767px){
     .shc-main-nav #bs-example-navbar-collapse-1 {
         clear:both;
@@ -792,6 +796,17 @@ div.row {
     .header-lower-form button {
         display: none;
     }
+    .everything .nav>li {
+        position: initial;
+        display: block;
+    }
+    .everything .nav>li>a {
+        position: initial;
+    }
+    .everything .navbar-nav>li>a:hover {
+    background-color:transparent;
+    color:black;
+}
 }
 
 @media screen and (max-width:900px){
@@ -901,4 +916,3 @@ width:100%;
         padding:0;
     }
 }
-
