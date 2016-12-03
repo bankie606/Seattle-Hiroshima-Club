@@ -156,6 +156,19 @@ Version: 0.0.420
     color:white;
 }
 
+.everything .dropdown-menu>.active>a  {
+    background-color:#5E1213;
+    background-image:linear-gradient(to bottom,#5E1213 0,#5E1213 100%)
+}
+
+.current_page_ancestor {
+    background-color:#5E1213;
+    color:white;
+}
+
+.current_page_ancestor a {
+    color:white;
+}
 
 /*End header/navbar */
 
