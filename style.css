@@ -151,15 +151,6 @@ Version: 0.0.420
     display: none;
 }
 
-.everything .current-menu-item, .everything .current_page_ancestor, .everything .dropdown-menu>.active>a  {
-    background-color:#5E1213;
-    background-image:linear-gradient(to bottom,#5E1213 0,#5E1213 100%)
-}
-
-.current-menu-item a, .current_page_ancestor a {
-    color:white;
-}
-
 .everything .navbar-nav>li>a:hover {
     background-color:#5E1213;
     color:white;
@@ -732,7 +723,13 @@ div.row {
 }
 
 @media screen and (min-width:767px){
-
+    .everything .current-menu-item, .everything .current_page_ancestor, .everything .dropdown-menu>.active>a  {
+        background-color:#5E1213;
+        background-image:linear-gradient(to bottom,#5E1213 0,#5E1213 100%)
+    }
+    .current-menu-item a, .current_page_ancestor a {
+        color:white;
+    }
 }
 
 @media screen and (max-width:767px){
