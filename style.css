@@ -13,6 +13,38 @@ Version: 0.0.420
     src: url(fonts/Felixti.ttf);
 }
 
+@font-face {
+    font-family: 'vegurbold';
+    src: url('fonts/vegur-bold-webfont.woff2') format('woff2'),
+         url('fonts/vegur-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'vegurlight';
+    src: url('fonts/vegur-light-webfont.woff2') format('woff2'),
+         url('fonts/vegur-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'vegurregular';
+    src: url('fonts/vegur-regular-webfont.woff2') format('woff2'),
+         url('fonts/vegur-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'arimoregular';
+    src: url('fonts/arimo-regular-webfont.woff2') format('woff2'),
+         url('fonts/arimo-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 /* bootstrap hover nav by Andres Ilich */
 @media screen and (min-width:767px){
@@ -137,6 +169,12 @@ Version: 0.0.420
     vertical-align:inherit;
     float:left;
     width:100px;
+}
+
+.navbar-nav>li {
+    font-family: 'vegurlight',arial,sans-serif;
+    font-size: 1.3em;
+    font-weight: 500;
 }
 
 #shc-name-h4 {
@@ -313,14 +351,15 @@ body {
 }
 
 .banner-container p {
-    font-size: 1.3em;
+    font-size: 1.4em;
     color: #fff;
+    font-family: 'vegurlight', arial, sans-serif;
 }
 
 .banner-container h2 {
-    font-size: 2.6em;
+    font-size: 3em;
     color: #fff;
-    font-style: italic;
+    font-family: 'vegurregular', arial, sans-serif;
 }
 
 /* front-page.php css hover cta's*/
@@ -388,9 +427,9 @@ body {
 }
 
 .grid figure h2 {
-	word-spacing: -0.15em;
 	font-weight: 400;
-    font-family:arial;
+    font-family: 'vegurregular', arial, sans-serif;
+    font-size: 2em;
 }
 
 .grid figure h2 span {
@@ -405,7 +444,7 @@ body {
 .grid figure p {
 	letter-spacing: 1px;
 	font-size: 88.5%;
-    font-family: arial, sans-serif;
+    font-family: 'vegurlight', arial, sans-serif;
 }
 
 /* chico styles*/
