@@ -1,10 +1,10 @@
 /*
 
 Theme Name: FL2016 HCnew
-Author: Milo
+Author: Milo 
 Author URI: http://www.milo.sh
 Description: This is a custom WP theme for the Seattle Hiroshima  
-Version: 0.0.3
+Version: 0.0.420
 
 */
 
@@ -151,11 +151,37 @@ Version: 0.0.3
     display: none;
 }
 
+.everything .navbar-nav>li>a:hover {
+    background-color:#5E1213;
+    color:white;
+}
+
+.everything .dropdown-menu>.active>a  {
+    background-color:#5E1213;
+    background-image:linear-gradient(to bottom,#5E1213 0,#5E1213 100%)
+}
+
+.everything .current_page_ancestor {
+    background-color:#5E1213;
+    color:white;
+}
+
+.current_page_ancestor a {
+    color:white;
+}
+
+.loginbutton:hover{
+background-color:#5E1213;
+color:white;
+text-decoration: none;
+}
+
 /*End header/navbar */
 
 /* Start main content / main div */
 html {
     background-color:#91A885;
+    background-image: url(images/egg-shell.png);
 }
 
 html,body {
@@ -251,6 +277,21 @@ body {
 .page-sidebar #dynamic-widget h2 {
     display: none;
 }
+
+.page-sidebar .children {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-left:5px;
+}
+
+.page-sidebar .children li {
+    line-height: 1.1em;
+    font-size: 1em;
+    margin-top:.55em;
+    margin-bottom: .55em;
+}
+
+
 
 /* End page.php(page-sidebar)  */
 
@@ -521,11 +562,16 @@ figure.effect-chico:hover p {
     overflow: hidden;
 }
 
+
+/* video gallery */
+#huge_it_videogallery_container_moving_1{
+width:900px;
+}
+
 /* Footer styles */
 
 .panel-footer {
     background-color: #FAF7CD;
-    max-height: ;
 }
 
 #shc-footer div.row {
@@ -541,6 +587,11 @@ div.row {
 .shc-footer-main-info {
     text-align: center;
     color:black;
+    margin-bottom:-160px;
+}
+
+.shc-footer-main-info .btn-group .btn {
+    background-color:#5e1213;
 }
 
 /*.shc-footer-main-info .btn {
@@ -624,7 +675,51 @@ div.row {
     margin-left:0;!important
 }
 
-/* END Footer styles */
+/* END Footer  */
+
+/* NEW FOOTER  */
+
+#links > ul > li {
+    list-style-type: none;
+    width: 180px;
+}
+
+.sub-menu {
+    padding-left:0;!important
+}
+
+.shc-footer-new li { 
+    list-style-type: none;
+    text-transform: uppercase;
+    color:black;
+}
+
+.shc-footer-new>a {
+    font-weight: bold;
+    font-size:1.2em;
+    text-transform: uppercase;
+}
+
+.shc-footer-new {
+    text-align: left;
+}
+
+.shc-footer-new ul li a {
+    color:black;
+}
+
+.shc-footer-new ul > .top-nav-item-1 {
+    float:left;
+}
+
+.shc-footer-new ul > .top-nav-item-2 {
+    float:right;
+}
+
+.shc-footer-new ul > .top-nav-item1:first-of-type {
+}
+
+/* END NEW FOOTER */
 
 
 /* MEDIA QUERIES */
@@ -643,6 +738,16 @@ div.row {
 @media screen and (max-width:1004px){
     .shc-main-nav #bs-example-navbar-collapse-1 {
         margin-top:0;
+    }
+}
+
+@media screen and (min-width:767px){
+    .everything .current-menu-item, .everything .current_page_ancestor, .everything .dropdown-menu>.active>a  {
+        background-color:#5E1213;
+        background-image:linear-gradient(to bottom,#5E1213 0,#5E1213 100%)
+    }
+    .current-menu-item a, .current_page_ancestor a {
+        color:white;
     }
 }
 
@@ -707,6 +812,23 @@ div.row {
     .header-lower-form button {
         display: none;
     }
+    .everything .nav>li {
+        position: initial;
+        display: block;
+    }
+    .everything .nav>li>a {
+        position: initial;
+    }
+    .everything .navbar-nav>li>a:hover {
+    background-color:transparent;
+    color:black;
+}
+}
+
+@media screen and (max-width:900px){
+#huge_it_videogallery_container_moving_1{
+width:100%;
+}
 }
 
 @media screen and (max-width:450px){
@@ -776,4 +898,37 @@ div.row {
     }
 }
 
+@media screen and (max-width:1025px) {
+    #links > ul > li {
+        width:120px;
+    }
+    .top-nav-item>a {
+        font-size: .9em;
+    }
+}
 
+@media screen and (max-width: 780px) {
+	
+    #links {
+        display: none;
+    }
+    .shc-footer-main-info {
+        background-color: #faf7cd;!important
+        overflow: overlay;!important
+        margin-bottom: 25px!important
+    }
+    #shc-footer {
+        height: 250px;
+    }
+    .navbar-form {
+        margin-left:0;
+        margin-right:0;
+        display: none;
+    }
+    .navbar-form button {
+        display: none;
+    }
+    .panel-footer {
+        padding:0;
+    }
+}
