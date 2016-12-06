@@ -27,6 +27,7 @@
                     <button type="submit" class="btn btn-default" id="searchsubmit">
                         <span class="glyphicon glyphicon-search"></span>
                     </button>
+			
                 </div>
             </form>
         </div>-->
@@ -50,6 +51,7 @@
                         <button type="submit" class="btn btn-default top-search-btn" id="searchsubmit">
                             <span class="glyphicon glyphicon-search"></span>
                         </button>
+			<a href="login/" class="loginbutton">MEMBER LOGIN </a>
                     </div>
                 </form>
               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">

@@ -170,6 +170,12 @@ Version: 0.0.420
     color:white;
 }
 
+.loginbutton:hover{
+background-color:#5E1213;
+color:white;
+text-decoration: none;
+}
+
 /*End header/navbar */
 
 /* Start main content / main div */
