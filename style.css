@@ -136,7 +136,7 @@ Version: 0.0.420
 .shc-main-nav a {
     color:black;
     font-size: 1.2em;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
 }
 
 .shc-main-nav .navbar-toggle {
