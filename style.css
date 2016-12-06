@@ -334,6 +334,11 @@ body {
 /* End page.php(page-sidebar)  */
 
 /* front-page.php text banner*/
+
+.metaslider {
+    margin-top: -20px;
+}
+
 .front-page-banner {
     width: 100%;
     position: relative;
