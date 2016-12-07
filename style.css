@@ -103,8 +103,25 @@ Version: 0.0.420
 .search-login .navbar-form {
     padding-top:0;
     padding-bottom:0;
-    margin:0;   
-    
+}
+
+.navbar-form {
+    margin-top:0.75em;
+}
+
+.everything .account-info {
+    padding: 0 16px;
+    margin: 0.75em 0.2em;
+    letter-spacing: 0;
+}
+
+.everything .account-info a {
+    background-color: #65130e;
+    color:white;
+}
+
+.everything .account-info a:hover {
+    background-color:rgba(94,18,19,.5);
 }
 
 .container-fluid {
@@ -974,5 +991,8 @@ width:100%;
     }
     .panel-footer {
         padding:0;
+    }
+    .everything .account-info {
+        display: none;
     }
 }
