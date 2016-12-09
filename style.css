@@ -118,6 +118,7 @@ Version: 0.0.420
 .everything .account-info a {
     background-color: #65130e;
     color:white;
+    font-size:14.5px;
 }
 
 .everything .account-info a:hover {
@@ -216,19 +217,24 @@ Version: 0.0.420
     background-image:linear-gradient(to bottom,#5E1213 0,#5E1213 100%)
 }
 
-.everything .current_page_ancestor {
+.everything .current_page_ancestor, .current-page-ancestor {
     background-color:#5E1213;
     color:white;
 }
 
-.current_page_ancestor a {
+.current_page_ancestor a, .current-page-ancestor a, .current-page-ancestor .current-page-ancestor a {
     color:white;
 }
 
+.page-sidebar .page_item_has_children .children li a  {
+    color:#337ab7;
+    font-weight: normal;
+}
+
 .loginbutton:hover{
-background-color:#5E1213;
-color:white;
-text-decoration: none;
+    background-color:#5E1213;
+    color:white;
+    text-decoration: none;
 }
 
 /*End header/navbar */
@@ -338,17 +344,22 @@ h1, h2, h3, h4 {
     display: none;
 }
 
-.page-sidebar .children {
+.page-sidebar ul {
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     padding-left:5px;
 }
 
-.page-sidebar .children li {
+.page-sidebar ul li {
     line-height: 1.1em;
-    font-size: 1em;
+    font-size: 1.2em;
     margin-top:.55em;
     margin-bottom: .55em;
+}
+
+.page-sidebar ul .current_page_item a {
+    color:#5E1213;
+    font-weight: bold;
 }
 
 
