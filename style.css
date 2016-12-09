@@ -1010,7 +1010,7 @@ width:100%;
     }
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width:780px) {
 	
     #links {
         display: none;
@@ -1036,5 +1036,27 @@ width:100%;
     }
     .everything .account-info {
         display: none;
+    }
+    .panel-footer-sub {
+        margin-top:162px;
+    }
+}
+@media screen and (max-width:475px){
+    .sub-footer-left, .sub-footer-right {
+        clear:both;
+        width:100%;
+    }
+    .sub-footer-right .footer-icons {
+        padding-left:25px;
+        width:200px;
+    }
+    .sub-footer-left {
+        text-align: center;
+    }
+    .panel-footer-sub .sub-footer-left, .panel-footer-sub .account-info {
+        margin:2px;
+    }
+    .panel-footer-sub .fa {
+        margin-top:0px;
     }
 }
