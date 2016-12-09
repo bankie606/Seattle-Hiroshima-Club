@@ -257,12 +257,13 @@ body {
 }
 
 .page-everything {
-    padding: 0 5px;
+    padding: 20px 2%;
 }
 
 .h1-header {
-    text-transform: uppercase;
-    padding:5px 0;
+    font-family:'vegurregular', arial, sans-serif; 
+    padding: 5px 0;
+    font-size: 4em;
 }
 
 /* End main content */
