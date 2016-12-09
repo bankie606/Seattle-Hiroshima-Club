@@ -838,6 +838,13 @@ div.row {
     color:#ebd1d2;
 }
 
+.shc-footer-new .current_page_ancestor, .shc-footer-new .current-page-ancestor {
+    background-color: transparent;
+}
+.shc-footer-new .current_page_ancestor a, .shc-footer-new .current-page-ancestor a {
+    color:black;
+}
+
 /* END NEW FOOTER */
 
 
