@@ -260,6 +260,10 @@ body {
     padding: 20px 2%;
 }
 
+h1, h2, h3, h4 {
+    font-family:'vegurregular', arial, sans-serif; 
+}
+
 .h1-header {
     font-family:'vegurregular', arial, sans-serif; 
     padding: 5px 0;
