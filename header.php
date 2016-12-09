@@ -45,15 +45,22 @@
                         <h4>シアトル広島県人会</h4>
                     </div>
                 </a>
-                <form class="navbar-form pull-right" role="search" method="get" id="searchform" action="http://www.seattle-hc.frcrescioni.net">
+                
+                <div class="account-info" style="float:right">
+                    <a href="/sign-up" class="btn" ><span>Sign</span><b>Up</b></a>
+                    <a href="/login" class="btn" ><span>Log</span><b>In</b></a>
+                </div>
+                
+                <form class="navbar-form pull-right top-signin" role="search" method="get" id="searchform" action="http://www.seattle-hc.frcrescioni.net">
                     <div class="row-fluid">
                         <input type="text" class="form-control search-bar srch-txt" placeholder="Search" name="s" id="s">
                         <button type="submit" class="btn btn-default top-search-btn" id="searchsubmit">
                             <span class="glyphicon glyphicon-search"></span>
                         </button>
-			<a href="login/" class="loginbutton">MEMBER LOGIN </a>
                     </div>
                 </form>
+                
+                
               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>

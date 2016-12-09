@@ -103,8 +103,25 @@ Version: 0.0.420
 .search-login .navbar-form {
     padding-top:0;
     padding-bottom:0;
-    margin:0;   
-    
+}
+
+.navbar-form {
+    margin-top:0.75em;
+}
+
+.everything .account-info {
+    padding: 0 16px;
+    margin: 0.75em 0.2em;
+    letter-spacing: 0;
+}
+
+.everything .account-info a {
+    background-color: #65130e;
+    color:white;
+}
+
+.everything .account-info a:hover {
+    background-color:rgba(94,18,19,.5);
 }
 
 .container-fluid {
@@ -690,12 +707,6 @@ div.row {
     padding-left: 0;
 }
 
-.shc-footer-last span .fa {
-    padding-right:10%;
-    color:black;
-    margin-bottom: .8em;
-}
-
 .shc-footer-last span .fa:last-of-type {
     padding-right:0;
 }
@@ -761,6 +772,54 @@ div.row {
 }
 
 .shc-footer-new ul > .top-nav-item1:first-of-type {
+}
+
+.shc-sub-footer {
+}
+
+.panel-footer-sub {
+    background-color: #65130e;
+}
+
+.panel-footer-sub .fa {
+    padding-right:1%;
+    color:white;
+    margin-top: .5em;
+}
+
+.panel-footer-sub .account-info {
+    padding: 0 16px;
+    margin: 0.75em 0.2em;
+    letter-spacing: 0;
+}
+
+.panel-footer-sub .account-info a {
+    background-color: #65130e;
+    color:white;
+}
+
+.panel-footer-sub .account-info a:hover {
+    background-color:rgba(94,18,19,.5);
+}
+
+.panel-footer-sub .sub-footer-left {
+    padding: 0 16px;
+    margin: 1.25em 0.2em;
+}
+.panel-footer-sub .sub-footer-left span {
+    vertical-align:middle;
+}
+
+.panel-footer-sub span {
+    color:white;
+}
+
+.sub-footer-right .footer-icons {
+    width:100px;!important
+}
+
+.panel-footer-sub .fa:hover {
+    color:#ebd1d2;
 }
 
 /* END NEW FOOTER */
@@ -951,7 +1010,7 @@ width:100%;
     }
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width:780px) {
 	
     #links {
         display: none;
@@ -974,5 +1033,30 @@ width:100%;
     }
     .panel-footer {
         padding:0;
+    }
+    .everything .account-info {
+        display: none;
+    }
+    .panel-footer-sub {
+        margin-top:162px;
+    }
+}
+@media screen and (max-width:475px){
+    .sub-footer-left, .sub-footer-right {
+        clear:both;
+        width:100%;
+    }
+    .sub-footer-right .footer-icons {
+        padding-left:25px;
+        width:200px;
+    }
+    .sub-footer-left {
+        text-align: center;
+    }
+    .panel-footer-sub .sub-footer-left, .panel-footer-sub .account-info {
+        margin:2px;
+    }
+    .panel-footer-sub .fa {
+        margin-top:0px;
     }
 }

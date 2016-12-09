@@ -34,6 +34,25 @@
             
     </div>
 </div>
+<div id="shc-sub-footer panel">
+    <div class="row panel-footer-sub">
+        <div class="sub-footer-left pull-left">
+            <span>&copy; Seattle Hiroshima Club</span>
+        </div> 
+        <div class="sub-footer-right pull-right">
+            <span class="pull-left footer-icons">
+                <a href="#!"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
+                <a href="#!"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>               
+                <a href="#!"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+            </span>
+            <div class="account-info pull-right">
+                    <a href="/sign-up" class="btn" ><span>Sign</span><b>Up</b></a>
+                    <a href="/login" class="btn" ><span>Log</span><b>In</b></a>
+            </div>
+        </div>
+            
+    </div>
+</div>
         <!-- WP footer begin -->
         <?php wp_footer(); ?>
         <!-- WP footer eng -->
