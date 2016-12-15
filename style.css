@@ -888,10 +888,11 @@ div.row {
         margin-top:20px;
     }
     .shc-main-nav .navbar-header img {
-        width:75px;
+        width:65px;
+        padding:4px;
     }
     .shc-main-nav .navbar-header #shc-name-h4 {
-        margin-top:20px;
+        margin-top:10px;
         margin-left:5px;
     }
     .shc-main-nav .navbar-header #shc-name-h4 h4 {
